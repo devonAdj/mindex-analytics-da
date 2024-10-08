@@ -1,6 +1,17 @@
 This code downloads files from AWS, with the use of pandas dataframes merges the data and then uploads to Postgre Database. 
 
-Ran into error with psycopg2-binary build so was unable to successfully load data into Database but the last cell
+Ran into error with psycopg2-binary build
+  × Getting requirements to build wheel did not run successfully.
+  │ exit code: 1
+  ╰─> [21 lines of output]
+      running egg_info
+      writing psycopg2_binary.egg-info\PKG-INFO
+      writing dependency_links to psycopg2_binary.egg-info\dependency_links.txt
+      writing top-level names to psycopg2_binary.egg-info\top_level.txt
+
+      Error: pg_config executable not found.
+
+so was unable to successfully load data into Database but the last cell
 code should have capability to upload data to DB with environments that have psycopg2 properly installed. Within the comments 
 of the second to last cell have included the SQL query that would be used in postgre to return receiver total yards along with the 
 equivalent logic in pandas to display what results would be.
