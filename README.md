@@ -1,6 +1,7 @@
 This code downloads files from AWS, with the use of pandas dataframes merges the data and then uploads to Postgre Database. 
 
 Ran into error with psycopg2-binary build
+**
   × Getting requirements to build wheel did not run successfully.
   │ exit code: 1
   ╰─> [21 lines of output]
@@ -10,6 +11,7 @@ Ran into error with psycopg2-binary build
       writing top-level names to psycopg2_binary.egg-info\top_level.txt
 
       Error: pg_config executable not found.
+**
 
 so was unable to successfully load data into Database but the last cell
 code should have capability to upload data to DB with environments that have psycopg2 properly installed. Within the comments 
