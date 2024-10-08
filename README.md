@@ -25,7 +25,7 @@ SQL QUERY:
    SUM(Higgins_Yards), 
    CONCAT(SUM(CASE WHEN Result = 'W' THEN 1 ELSE 0 END),
     '-',
-    CASE WHEN Result = 'L' THEN 1 ELSE 0 END)) AS Record
+    SUME(CASE WHEN Result = 'L' THEN 1 ELSE 0 END)) AS Record
  FROM devon_adjei
 
  
