@@ -10,7 +10,9 @@ Ran into error with psycopg2-binary build
       writing dependency_links to psycopg2_binary.egg-info\dependency_links.txt
       writing top-level names to psycopg2_binary.egg-info\top_level.txt
 
-      Error: pg_config executable not found.
+      Error: pg_config executable not found. 
+      This is due to the fact currently unable to install postgres on personal machine 
+       have brought in to get machine wiped and admin access updated.      
 **
 
 so was unable to successfully load data into Database but the last cell
